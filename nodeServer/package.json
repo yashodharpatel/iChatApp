@@ -1,0 +1,14 @@
+{
+  "name": "chatapp",
+  "version": "1.0.0",
+  "description": "This is a nodeserver created for my relatime chat app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Yashodhar",
+  "license": "ISC",
+  "dependencies": {
+    "socket.io": "^4.0.1"
+  }
+}
