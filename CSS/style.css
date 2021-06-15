@@ -92,10 +92,16 @@
         height: 100vh;
         margin: 0%;
         box-shadow: none;
+        border-radius: 0;
     }
 
     .centre{
         margin: 0.5% 21%;
+    }
+
+    .header{
+        border-top-left-radius: 0;
+        border-top-right-radius: 0;
     }
 }
 
@@ -106,9 +112,16 @@
         height: 100vh;
         margin: 0%;
         box-shadow: none;
+        border-radius: 0;
     }
 
     .centre{
         margin: 0.5% 35%;
     }
+
+    .header{
+        border-top-left-radius: 0;
+        border-top-right-radius: 0;
+    }
+
 }
