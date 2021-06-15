@@ -46,4 +46,5 @@ form.addEventListener('submit', (e) => {
     append(`You: ${message}`, 'right');
     socket.emit('send', message);
     messageInput.value = '';
+    return false;
 });
