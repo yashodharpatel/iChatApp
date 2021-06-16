@@ -103,6 +103,12 @@
         border-top-left-radius: 0;
         border-top-right-radius: 0;
     }
+
+    #send-container{
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+    }
 }
 
 @media only screen and (min-width:700px) and (max-width:1200px){
@@ -124,4 +130,9 @@
         border-top-right-radius: 0;
     }
 
+    #send-container{
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+    }
 }
