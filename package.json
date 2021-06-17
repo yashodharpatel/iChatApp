@@ -1,15 +1,24 @@
 {
-  "name": "chatapp",
+  "name": "ichatapp",
   "version": "1.0.0",
-  "description": "Relatime chat Application",
+  "description": "Realtime chat application",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yashodharpatel/iChatApp.git"
+  },
   "author": "Yashodhar Patel",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yashodharpatel/iChatApp/issues"
+  },
+  "homepage": "https://github.com/yashodharpatel/iChatApp#readme",
   "dependencies": {
-    "socket.io": "^4.0.1"
+    "express": "^4.17.1",
+    "socket.io": "^4.1.2"
   }
 }
