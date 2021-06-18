@@ -49,3 +49,8 @@ form.addEventListener('submit', (e) => {
     messageInput.value = '';
     return false;
 });
+
+// Prevents the site from leaving or reload
+function leavePage() {   
+    return "Changes that you made may not be saved.";
+}
