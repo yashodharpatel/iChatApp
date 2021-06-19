@@ -15,7 +15,7 @@ const append = (message, position) => {
     messageElement.classList.add('message');
     messageElement.classList.add(position);
     messageContainer.append(messageElement);
-    messageContainer.scrollTop = messageContainer.scrollHeight;
+    messageContainer.scrollTop = messageContainer.scrollHeight - form.scrollHeight;
     if(position == 'left' || position == 'centre'){
         audio.play();
     }
@@ -64,13 +64,3 @@ form.addEventListener('submit', (e) => {
 function leavePage() {   
     return "Changes that you made may not be saved.";
 }
-
-var $htmlOrBody = $('html, body'), // scrollTop works on <body> for some browsers, <html> for others
-    scrollTopPadding = 8;
-
-$('textarea').focus(function() {
-    // get textarea's offset top position
-    var textareaTop = $(this).offset().top;
-    // scroll to the textarea
-    $htmlOrBody.scrollTop(textareaTop - scrollTopPadding);
-});
