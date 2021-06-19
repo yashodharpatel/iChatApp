@@ -29,6 +29,10 @@ io.on('connection', socket =>{
         socket.broadcast.emit('user-joined', name);
     });
 
+    // If any new user joins, let that user and all other users know no of users connected to the server!
+    let clientsCount = io.engine.clientsCount ;
+    io.emit('clients-connected', clientsCount);
+
     // If someone sends a message, broadcast it to other people
     socket.on('send', message =>{
         socket.broadcast.emit('receive', {name: users[socket.id], message: message});

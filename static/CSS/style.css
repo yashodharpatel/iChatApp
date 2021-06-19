@@ -38,7 +38,7 @@
 
 .message{
     padding: 1%;
-    margin: 0.5% 2%;
+    margin: 0.3% 2%;
     border-radius: 5px;
     font-size: 114%;
 }
@@ -47,12 +47,16 @@
     background-color: whitesmoke;
     float: left;
     clear:both;
+    width: auto;
+    max-width: 80%;
 }
 
 .right{
     background-color: #DCF8C6;
     float: right;
-    clear:both;
+    clear: both;
+    width: auto;
+    max-width: 80%;
 }
 
 .centre{
@@ -65,6 +69,14 @@
     text-transform: uppercase;
     clear: both;
     color: rgba(0, 0, 0, 0.733);
+}
+
+.centre-clientsConnected{
+    color: rgba(0, 0, 0, 0.733);
+    font-size: 80%;
+    margin: 0.3% 0%;
+    text-align: center;
+    clear: both;
 }
 
 #send-container{

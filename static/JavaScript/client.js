@@ -30,6 +30,16 @@ socket.on('user-joined', name=>{
     append(`${name} JOINED THE CHAT`, 'centre');
 });
 
+// If any new user joins, let that user and all other users know no of users connected to the server!
+socket.on('clients-connected', clientsCount => {
+    if(clientsCount <= 1){
+        append(`${clientsCount} participant connected to iChatApp`, 'centre-clientsConnected');
+    }
+    else{
+        append(`${clientsCount} participants connected to iChatApp`, 'centre-clientsConnected');
+    }
+});
+
 // If server sends a message, receive it
 socket.on('receive', data =>{
     append(`${data.name}: ${data.message}`, 'left');
