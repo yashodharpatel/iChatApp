@@ -15,7 +15,7 @@ const append = (message, position) => {
     messageElement.classList.add('message');
     messageElement.classList.add(position);
     messageContainer.append(messageElement);
-    messageContainer.scrollTop = messageContainer.scrollHeight;
+    messageContainer.scrollTop = messageContainer.scrollHeight + form.scrollHeight;
     if(position == 'left' || position == 'centre'){
         audio.play();
     }
