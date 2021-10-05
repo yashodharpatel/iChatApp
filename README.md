@@ -1,6 +1,6 @@
 # iChat App
 
-<p>A simple chatting application(single/group) built on top of the NodeJS platform, with Socket.io and ExpressJS.</p>
+<p>A Simple chatting application(single/group) built on top of the NodeJS platform, with Socket.io and ExpressJS.</p>
 <br>
 
 <p>Release version (Website):</p>
@@ -50,15 +50,16 @@ To run the app simply follow these steps:
 <ul><li>Run node locally to start application:</li></ul>
 <pre><code>npm start</code></pre>
 
-<ul><li>Point your browser to http://localhost:8000</li></ul>
+<ul><li>Point your browser to <a href="http://localhost:8000">http://localhost:8000</a></li></ul>
 <br>
 
 <h2>Basic Workflow</h2>
 <ul>
-<li>User needs to enter their name so that users who are already online can identify him/her.</li>
-<li>Chat window opens, Number of users already online will be displayed</li>
-<li>You can now chat with the persons who are online</li>  
+	<li>User needs to enter their name so that users who are already online can identify him/her.</li>
+	<li>Chat window opens, Number of users already online will be displayed.</li>
+	<li>You can now chat with the online users.</li>  
 </ul>
+<br>
 
 Chat Application works on the Socket.io library that allows real-time, event-based communication in Node.js and browser-based applications. It uses the implementation of WebSockets protocol and offers some advantages over the protocol itself.
 
