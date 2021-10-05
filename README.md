@@ -39,8 +39,8 @@
 
 To run the app simply follow these steps:
 
-<ul><li>Download or Clone this repository.</li></ul>
-<pre><code>git clone https://github.com/yashodharpatel/iChatApp.git</code></pre>
+<ul><li>Download or Clone this repository.</li>
+<pre><code>git clone https://github.com/yashodharpatel/iChatApp.git</code></pre></ul>
 
 <ul><li>Browse to the project directory on your Terminal or Command Prompt.</li></ul>
 
