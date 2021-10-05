@@ -40,10 +40,10 @@
 To run the app simply follow these steps:
 
 <ol>
-<li>Download or Clone this repository.
+<li>Clone the repository.
 <pre><code>git clone https://github.com/yashodharpatel/iChatApp.git</code></pre></li>
 
-<li>Browse to the project directory on your Terminal or Command Prompt.</li>
+<li>Open the terminal or Command Prompt and navigate to the project directory.</li>
 
 <li>Install dependencies defined in package.json file:
 <pre><code>npm install</code></pre></li>
@@ -51,7 +51,8 @@ To run the app simply follow these steps:
 <li>Run node locally to start application:
 <pre><code>npm start</code></pre></li>
 
-<li>Point your browser to <a href="http://localhost:8000">http://localhost:8000</a></li></ol>
+<li>Point your browser to <a href="http://localhost:8000">http://localhost:8000</a></li>
+</ol>
 <br>
 
 <h2>Basic Workflow</h2>
