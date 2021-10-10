@@ -6,7 +6,7 @@
 <p>Release version (Website):</p>
 
 <blockquote>
-	<a href="https://ichatappapp.herokuapp.com/" target="blank">ichatappapp.herokuapp.com</a>
+	<a href="https://ichatappapp.herokuapp.com/" target="blank">https://ichatappapp.herokuapp.com</a>
 </blockquote>
 <br>
 
