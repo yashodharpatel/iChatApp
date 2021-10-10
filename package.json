@@ -1,7 +1,7 @@
 {
   "name": "ichatapp",
   "version": "1.0.0",
-  "description": "A Simple chatting application(single/group) built on top of the NodeJS platform, with Socket.io and ExpressJS.",
+  "description": "A Simple chatting application that allows multiple users to chat with each other through text, built on top of the NodeJS platform, with Socket.io and ExpressJS.",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",

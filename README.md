@@ -1,6 +1,6 @@
-# iChat App
+# Chat Application using Socket Programming
 
-<p>A Simple chatting application(single/group) built on top of the NodeJS platform, with Socket.io and ExpressJS.</p>
+<p>A Simple chatting application that allows multiple users to chat with each other through text, built on top of the NodeJS platform, with Socket.io and ExpressJS.</p>
 <br>
 
 <p>Release version (Website):</p>
